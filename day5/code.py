@@ -12,24 +12,24 @@ def main():
 	#]
 
 	# Stacks for part 1:
-	stacks = [
-		["blah"],		# stupid one so that the indexes start at 1
-		["F", "D", "B", "Z", "T", "J", "R", "N"],
-		["R", "S", "N", "J", "H"],
-		["C", "R", "N", "J", "G", "Z", "F", "Q"],
-		["F", "V", "N", "G", "R", "T", "Q"],
-		["L", "T", "Q", "F"],
-		["Q", "C", "W", "Z", "B", "R", "G", "N"],
-		["F", "C", "L", "S", "N", "H", "M"],
-		["D", "N", "Q", "M", "T", "J"],
-		["P", "G", "S"]
-	]
+	#stacks = [
+	#	["blah"],		# stupid one so that the indexes start at 1
+	#	["F", "D", "B", "Z", "T", "J", "R", "N"],
+	#	["R", "S", "N", "J", "H"],
+	#	["C", "R", "N", "J", "G", "Z", "F", "Q"],
+	#	["F", "V", "N", "G", "R", "T", "Q"],
+	#	["L", "T", "Q", "F"],
+	#	["Q", "C", "W", "Z", "B", "R", "G", "N"],
+	#	["F", "C", "L", "S", "N", "H", "M"],
+	#	["D", "N", "Q", "M", "T", "J"],
+	#	["P", "G", "S"]
+	#]
 
-	print("starting arrangement")
-	print(f"Stack1: {stacks[1]}")
-	print(f"Stack2: {stacks[2]}")
-	print(f"Stack3: {stacks[3]}")
-	print()
+	#print("starting arrangement")
+	#print(f"Stack1: {stacks[1]}")
+	#print(f"Stack2: {stacks[2]}")
+	#print(f"Stack3: {stacks[3]}")
+	#print()
 
 	for line in data.splitlines():
 		
